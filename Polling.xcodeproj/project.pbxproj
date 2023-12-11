@@ -1,0 +1,702 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C524ADF2B2712100010BE2E /* Polling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB51FB32B26BEE8003EDFED /* Polling.swift */; };
+		6C524AE02B2715780010BE2E /* PollingAnswear.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB51FB72B26BF8E003EDFED /* PollingAnswear.swift */; };
+		6C524AE12B2715810010BE2E /* PollingResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB51FB12B26BEC1003EDFED /* PollingResponse.swift */; };
+		6C524AE62B2719D00010BE2E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 6C524AE52B2719D00010BE2E /* README.md */; };
+		8CB51F7E2B26BB28003EDFED /* PollingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB51F7D2B26BB28003EDFED /* PollingApp.swift */; };
+		8CB51F822B26BB2A003EDFED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CB51F812B26BB2A003EDFED /* Assets.xcassets */; };
+		8CB51F852B26BB2A003EDFED /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CB51F842B26BB2A003EDFED /* Preview Assets.xcassets */; };
+		8CB51F8F2B26BB2A003EDFED /* PollingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB51F8E2B26BB2A003EDFED /* PollingTests.swift */; };
+		8CB51F992B26BB2A003EDFED /* PollingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB51F982B26BB2A003EDFED /* PollingUITests.swift */; };
+		8CB51F9B2B26BB2A003EDFED /* PollingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB51F9A2B26BB2A003EDFED /* PollingUITestsLaunchTests.swift */; };
+		8CB51FA92B26BB89003EDFED /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 8CB51FA82B26BB89003EDFED /* ComposableArchitecture */; };
+		8CB51FAE2B26BD22003EDFED /* PollingHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB51FAD2B26BD22003EDFED /* PollingHomeView.swift */; };
+		8CB51FB02B26BE29003EDFED /* PollingHomeFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB51FAF2B26BE29003EDFED /* PollingHomeFeature.swift */; };
+		8CB51FB22B26BEC1003EDFED /* PollingResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB51FB12B26BEC1003EDFED /* PollingResponse.swift */; };
+		8CB51FB42B26BEE8003EDFED /* Polling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB51FB32B26BEE8003EDFED /* Polling.swift */; };
+		8CB51FB62B26BF43003EDFED /* PollingFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB51FB52B26BF43003EDFED /* PollingFeature.swift */; };
+		8CB51FB82B26BF8E003EDFED /* PollingAnswear.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB51FB72B26BF8E003EDFED /* PollingAnswear.swift */; };
+		8CB51FBA2B26C04F003EDFED /* PollingClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB51FB92B26C04F003EDFED /* PollingClient.swift */; };
+		8CB51FBC2B26C186003EDFED /* PollingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB51FBB2B26C186003EDFED /* PollingView.swift */; };
+		8CB51FBE2B26C1E4003EDFED /* PollingDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB51FBD2B26C1E4003EDFED /* PollingDetailView.swift */; };
+		8CB51FBF2B26CEA0003EDFED /* PollingFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB51FB52B26BF43003EDFED /* PollingFeature.swift */; };
+		8CB51FC02B26CEA6003EDFED /* PollingHomeFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB51FAF2B26BE29003EDFED /* PollingHomeFeature.swift */; };
+		8CB51FC12B26CF4D003EDFED /* PollingClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB51FB92B26C04F003EDFED /* PollingClient.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8CB51F8B2B26BB2A003EDFED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CB51F722B26BB28003EDFED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CB51F792B26BB28003EDFED;
+			remoteInfo = Polling;
+		};
+		8CB51F952B26BB2A003EDFED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CB51F722B26BB28003EDFED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CB51F792B26BB28003EDFED;
+			remoteInfo = Polling;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6C524AE52B2719D00010BE2E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		8CB51F7A2B26BB28003EDFED /* Polling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Polling.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CB51F7D2B26BB28003EDFED /* PollingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PollingApp.swift; sourceTree = "<group>"; };
+		8CB51F812B26BB2A003EDFED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8CB51F842B26BB2A003EDFED /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8CB51F8A2B26BB2A003EDFED /* PollingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PollingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CB51F8E2B26BB2A003EDFED /* PollingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PollingTests.swift; sourceTree = "<group>"; };
+		8CB51F942B26BB2A003EDFED /* PollingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PollingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CB51F982B26BB2A003EDFED /* PollingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PollingUITests.swift; sourceTree = "<group>"; };
+		8CB51F9A2B26BB2A003EDFED /* PollingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PollingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8CB51FAD2B26BD22003EDFED /* PollingHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PollingHomeView.swift; sourceTree = "<group>"; };
+		8CB51FAF2B26BE29003EDFED /* PollingHomeFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PollingHomeFeature.swift; sourceTree = "<group>"; };
+		8CB51FB12B26BEC1003EDFED /* PollingResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PollingResponse.swift; sourceTree = "<group>"; };
+		8CB51FB32B26BEE8003EDFED /* Polling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Polling.swift; sourceTree = "<group>"; };
+		8CB51FB52B26BF43003EDFED /* PollingFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PollingFeature.swift; sourceTree = "<group>"; };
+		8CB51FB72B26BF8E003EDFED /* PollingAnswear.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PollingAnswear.swift; sourceTree = "<group>"; };
+		8CB51FB92B26C04F003EDFED /* PollingClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PollingClient.swift; sourceTree = "<group>"; };
+		8CB51FBB2B26C186003EDFED /* PollingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PollingView.swift; sourceTree = "<group>"; };
+		8CB51FBD2B26C1E4003EDFED /* PollingDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PollingDetailView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8CB51F772B26BB28003EDFED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CB51FA92B26BB89003EDFED /* ComposableArchitecture in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CB51F872B26BB2A003EDFED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CB51F912B26BB2A003EDFED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C524AE22B2718E10010BE2E /* PollingHome */ = {
+			isa = PBXGroup;
+			children = (
+				8CB51FAD2B26BD22003EDFED /* PollingHomeView.swift */,
+				8CB51FAF2B26BE29003EDFED /* PollingHomeFeature.swift */,
+			);
+			path = PollingHome;
+			sourceTree = "<group>";
+		};
+		6C524AE32B2719040010BE2E /* PollingView */ = {
+			isa = PBXGroup;
+			children = (
+				8CB51FBB2B26C186003EDFED /* PollingView.swift */,
+				8CB51FBD2B26C1E4003EDFED /* PollingDetailView.swift */,
+				8CB51FB52B26BF43003EDFED /* PollingFeature.swift */,
+			);
+			path = PollingView;
+			sourceTree = "<group>";
+		};
+		6C524AE42B2719290010BE2E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8CB51FB12B26BEC1003EDFED /* PollingResponse.swift */,
+				8CB51FB32B26BEE8003EDFED /* Polling.swift */,
+				8CB51FB72B26BF8E003EDFED /* PollingAnswear.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6C524AF12B2735470010BE2E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8CB51F712B26BB28003EDFED = {
+			isa = PBXGroup;
+			children = (
+				6C524AE52B2719D00010BE2E /* README.md */,
+				8CB51F7C2B26BB28003EDFED /* Polling */,
+				8CB51F8D2B26BB2A003EDFED /* PollingTests */,
+				8CB51F972B26BB2A003EDFED /* PollingUITests */,
+				8CB51F7B2B26BB28003EDFED /* Products */,
+				6C524AF12B2735470010BE2E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8CB51F7B2B26BB28003EDFED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8CB51F7A2B26BB28003EDFED /* Polling.app */,
+				8CB51F8A2B26BB2A003EDFED /* PollingTests.xctest */,
+				8CB51F942B26BB2A003EDFED /* PollingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8CB51F7C2B26BB28003EDFED /* Polling */ = {
+			isa = PBXGroup;
+			children = (
+				6C524AE22B2718E10010BE2E /* PollingHome */,
+				6C524AE32B2719040010BE2E /* PollingView */,
+				6C524AE42B2719290010BE2E /* Models */,
+				8CB51F7D2B26BB28003EDFED /* PollingApp.swift */,
+				8CB51FB92B26C04F003EDFED /* PollingClient.swift */,
+				8CB51F812B26BB2A003EDFED /* Assets.xcassets */,
+				8CB51F832B26BB2A003EDFED /* Preview Content */,
+			);
+			path = Polling;
+			sourceTree = "<group>";
+		};
+		8CB51F832B26BB2A003EDFED /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8CB51F842B26BB2A003EDFED /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8CB51F8D2B26BB2A003EDFED /* PollingTests */ = {
+			isa = PBXGroup;
+			children = (
+				8CB51F8E2B26BB2A003EDFED /* PollingTests.swift */,
+			);
+			path = PollingTests;
+			sourceTree = "<group>";
+		};
+		8CB51F972B26BB2A003EDFED /* PollingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8CB51F982B26BB2A003EDFED /* PollingUITests.swift */,
+				8CB51F9A2B26BB2A003EDFED /* PollingUITestsLaunchTests.swift */,
+			);
+			path = PollingUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8CB51F792B26BB28003EDFED /* Polling */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CB51F9E2B26BB2A003EDFED /* Build configuration list for PBXNativeTarget "Polling" */;
+			buildPhases = (
+				8CB51F762B26BB28003EDFED /* Sources */,
+				8CB51F772B26BB28003EDFED /* Frameworks */,
+				8CB51F782B26BB28003EDFED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Polling;
+			packageProductDependencies = (
+				8CB51FA82B26BB89003EDFED /* ComposableArchitecture */,
+			);
+			productName = Polling;
+			productReference = 8CB51F7A2B26BB28003EDFED /* Polling.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8CB51F892B26BB2A003EDFED /* PollingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CB51FA12B26BB2A003EDFED /* Build configuration list for PBXNativeTarget "PollingTests" */;
+			buildPhases = (
+				8CB51F862B26BB2A003EDFED /* Sources */,
+				8CB51F872B26BB2A003EDFED /* Frameworks */,
+				8CB51F882B26BB2A003EDFED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8CB51F8C2B26BB2A003EDFED /* PBXTargetDependency */,
+			);
+			name = PollingTests;
+			packageProductDependencies = (
+			);
+			productName = PollingTests;
+			productReference = 8CB51F8A2B26BB2A003EDFED /* PollingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8CB51F932B26BB2A003EDFED /* PollingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CB51FA42B26BB2A003EDFED /* Build configuration list for PBXNativeTarget "PollingUITests" */;
+			buildPhases = (
+				8CB51F902B26BB2A003EDFED /* Sources */,
+				8CB51F912B26BB2A003EDFED /* Frameworks */,
+				8CB51F922B26BB2A003EDFED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8CB51F962B26BB2A003EDFED /* PBXTargetDependency */,
+			);
+			name = PollingUITests;
+			productName = PollingUITests;
+			productReference = 8CB51F942B26BB2A003EDFED /* PollingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8CB51F722B26BB28003EDFED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					8CB51F792B26BB28003EDFED = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					8CB51F892B26BB2A003EDFED = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 8CB51F792B26BB28003EDFED;
+					};
+					8CB51F932B26BB2A003EDFED = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 8CB51F792B26BB28003EDFED;
+					};
+				};
+			};
+			buildConfigurationList = 8CB51F752B26BB28003EDFED /* Build configuration list for PBXProject "Polling" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8CB51F712B26BB28003EDFED;
+			packageReferences = (
+				8CB51FA72B26BB89003EDFED /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+			);
+			productRefGroup = 8CB51F7B2B26BB28003EDFED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8CB51F792B26BB28003EDFED /* Polling */,
+				8CB51F892B26BB2A003EDFED /* PollingTests */,
+				8CB51F932B26BB2A003EDFED /* PollingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8CB51F782B26BB28003EDFED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C524AE62B2719D00010BE2E /* README.md in Resources */,
+				8CB51F852B26BB2A003EDFED /* Preview Assets.xcassets in Resources */,
+				8CB51F822B26BB2A003EDFED /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CB51F882B26BB2A003EDFED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CB51F922B26BB2A003EDFED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8CB51F762B26BB28003EDFED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CB51FB22B26BEC1003EDFED /* PollingResponse.swift in Sources */,
+				8CB51FB02B26BE29003EDFED /* PollingHomeFeature.swift in Sources */,
+				8CB51FBA2B26C04F003EDFED /* PollingClient.swift in Sources */,
+				8CB51FB42B26BEE8003EDFED /* Polling.swift in Sources */,
+				8CB51FB82B26BF8E003EDFED /* PollingAnswear.swift in Sources */,
+				8CB51FB62B26BF43003EDFED /* PollingFeature.swift in Sources */,
+				8CB51FAE2B26BD22003EDFED /* PollingHomeView.swift in Sources */,
+				8CB51FBE2B26C1E4003EDFED /* PollingDetailView.swift in Sources */,
+				8CB51FBC2B26C186003EDFED /* PollingView.swift in Sources */,
+				8CB51F7E2B26BB28003EDFED /* PollingApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CB51F862B26BB2A003EDFED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CB51FC02B26CEA6003EDFED /* PollingHomeFeature.swift in Sources */,
+				8CB51FBF2B26CEA0003EDFED /* PollingFeature.swift in Sources */,
+				6C524AE12B2715810010BE2E /* PollingResponse.swift in Sources */,
+				6C524ADF2B2712100010BE2E /* Polling.swift in Sources */,
+				6C524AE02B2715780010BE2E /* PollingAnswear.swift in Sources */,
+				8CB51FC12B26CF4D003EDFED /* PollingClient.swift in Sources */,
+				8CB51F8F2B26BB2A003EDFED /* PollingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CB51F902B26BB2A003EDFED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CB51F9B2B26BB2A003EDFED /* PollingUITestsLaunchTests.swift in Sources */,
+				8CB51F992B26BB2A003EDFED /* PollingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8CB51F8C2B26BB2A003EDFED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8CB51F792B26BB28003EDFED /* Polling */;
+			targetProxy = 8CB51F8B2B26BB2A003EDFED /* PBXContainerItemProxy */;
+		};
+		8CB51F962B26BB2A003EDFED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8CB51F792B26BB28003EDFED /* Polling */;
+			targetProxy = 8CB51F952B26BB2A003EDFED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8CB51F9C2B26BB2A003EDFED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8CB51F9D2B26BB2A003EDFED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8CB51F9F2B26BB2A003EDFED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Polling/Preview Content\"";
+				DEVELOPMENT_TEAM = G48PNQW3MM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Dimitrios-Tsoumanis.Polling";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8CB51FA02B26BB2A003EDFED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Polling/Preview Content\"";
+				DEVELOPMENT_TEAM = G48PNQW3MM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Dimitrios-Tsoumanis.Polling";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8CB51FA22B26BB2A003EDFED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G48PNQW3MM;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Dimitrios-Tsoumanis.PollingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Polling.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Polling";
+			};
+			name = Debug;
+		};
+		8CB51FA32B26BB2A003EDFED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G48PNQW3MM;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Dimitrios-Tsoumanis.PollingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Polling.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Polling";
+			};
+			name = Release;
+		};
+		8CB51FA52B26BB2A003EDFED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G48PNQW3MM;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Dimitrios-Tsoumanis.PollingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Polling;
+			};
+			name = Debug;
+		};
+		8CB51FA62B26BB2A003EDFED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G48PNQW3MM;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Dimitrios-Tsoumanis.PollingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Polling;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8CB51F752B26BB28003EDFED /* Build configuration list for PBXProject "Polling" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CB51F9C2B26BB2A003EDFED /* Debug */,
+				8CB51F9D2B26BB2A003EDFED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CB51F9E2B26BB2A003EDFED /* Build configuration list for PBXNativeTarget "Polling" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CB51F9F2B26BB2A003EDFED /* Debug */,
+				8CB51FA02B26BB2A003EDFED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CB51FA12B26BB2A003EDFED /* Build configuration list for PBXNativeTarget "PollingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CB51FA22B26BB2A003EDFED /* Debug */,
+				8CB51FA32B26BB2A003EDFED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CB51FA42B26BB2A003EDFED /* Build configuration list for PBXNativeTarget "PollingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CB51FA52B26BB2A003EDFED /* Debug */,
+				8CB51FA62B26BB2A003EDFED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8CB51FA72B26BB89003EDFED /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8CB51FA82B26BB89003EDFED /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8CB51FA72B26BB89003EDFED /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 8CB51F722B26BB28003EDFED /* Project object */;
+}
